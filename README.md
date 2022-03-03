@@ -23,6 +23,8 @@ yarn add @emailjs/browser
 }
 ```
 
+[ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+
 
 
 how to play this project
@@ -31,29 +33,3 @@ how to play this project
 yarn
 yarn start
 ```
-
-
-
-
-
-
-
----
-
-dans ce projet j'ai aussi utilise l'extension [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-
-shortcut `ctrl`+`alt`+`r`  => `rafce`  
-
-google it: clip path generator: https://bennettfeely.com/clippy/
-
-https://www.toptal.com/designers/subtlepatterns/
-
-smoothScroll : https://www.youtube.com/watch?v=yg9We54OxmE
-
-> https://github.com/john-smilga/react-nuggets
-
-
-
-## Inspiration
-
-* [ ] https://www.sliderrevolution.com/resources/css-animated-background/

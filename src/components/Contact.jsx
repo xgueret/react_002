@@ -6,7 +6,7 @@ import Map from '../img/map.png'
 import Phone from '../img/phone.png'
 import Send from '../img/send.png'
 import emailjs from '@emailjs/browser'
-import { emailConf } from '../myconfig'
+import { confEmail } from '../confEmail'
 
 const Container = styled.div`
   height: 90%;
@@ -85,10 +85,10 @@ const Contact = () => {
     e.preventDefault()
     emailjs
       .sendForm(
-        emailConf.service_id,
-        emailConf.template_id,
+        confEmail.service_id,
+        confEmail.template_id,
         formRef.current,
-        emailConf.user_id
+        confEmail.user_id
       )
       .then(
         (result) => {
