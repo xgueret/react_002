@@ -70,7 +70,13 @@ const Feature = () => {
         <Desc>
           We care your business and guarantee you to achieve marketing goals.
         </Desc>
-        <Button width="150px">Learn More</Button>
+        <Button
+          width="150px"
+          whileHover={{ scale: 0.85 }}
+          transition={{ duration: 0.5 }}
+        >
+          Learn More
+        </Button>
       </Right>
       <AnimatedShapes />
     </Container>

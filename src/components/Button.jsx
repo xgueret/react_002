@@ -1,6 +1,7 @@
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
-const Button = styled.button`
+const Button = styled(motion.button)`
   width: ${(props) => `${props.width}` || 'auto'};
   border: none;
   padding: 15px;

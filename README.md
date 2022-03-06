@@ -19,6 +19,7 @@ yarn create react-app lama-tuto-002
 yarn add -D prettier
 yarn add styled-components
 yarn add @emailjs/browser
+yarn add framer-motion
 ```
 
  `.prettierrc`

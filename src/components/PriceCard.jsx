@@ -35,18 +35,6 @@ const List = styled.ul`
 const ListItem = styled.li`
   margin: 30px 0;
 `
-/*
-const Button = styled.button`
-  border: none;
-  background-color: darkblue;
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  padding: 15px;
-  border-radius: 10px;
-  cursor: pointer;
-`*/
-
 const PriceCard = ({ price, type }) => {
   return (
     <Container>
@@ -60,7 +48,9 @@ const PriceCard = ({ price, type }) => {
         <ListItem>50+ PreBuilt Websites</ListItem>
         <ListItem>Premium Plugins</ListItem>
       </List>
-      <Button>Join now</Button>
+      <Button whileHover={{ scale: 0.85 }} transition={{ duration: 0.5 }}>
+        Join now
+      </Button>
     </Container>
   )
 }

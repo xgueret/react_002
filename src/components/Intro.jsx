@@ -87,7 +87,9 @@ const Intro = () => {
           business.
         </Desc>
         <Info>
-          <Button>START A PROJECT</Button>
+          <Button whileHover={{ scale: 0.85 }} transition={{ duration: 0.5 }}>
+            START A PROJECT
+          </Button>
           <Contact>
             <Phone>Call us (012) 345 - 6789</Phone>
             <ContactText>For any question or concern</ContactText>
