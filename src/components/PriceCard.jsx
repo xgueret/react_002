@@ -48,9 +48,7 @@ const PriceCard = ({ price, type }) => {
         <ListItem>50+ PreBuilt Websites</ListItem>
         <ListItem>Premium Plugins</ListItem>
       </List>
-      <Button whileHover={{ scale: 0.85 }} transition={{ duration: 0.5 }}>
-        Join now
-      </Button>
+      <Button>Join now</Button>
     </Container>
   )
 }

@@ -132,12 +132,7 @@ const Service = () => {
             <MiniCard />
             <MiniCard />
           </CardContainer>
-          <Button
-            width="180px"
-            onClick={() => setOpen(true)}
-            whileHover={{ scale: 0.85 }}
-            transition={{ duration: 0.5 }}
-          >
+          <Button width="180px" onClick={() => setOpen(true)}>
             <Icon src={Play} />
             How it works
           </Button>
